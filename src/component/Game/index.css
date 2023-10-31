@@ -1,0 +1,124 @@
+.bg-container {
+  background-color: #223a5f;
+  height: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: bree serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.page-header {
+  width: 50px;
+}
+.score-bg-container {
+  border: solid 2px #fff;
+  width: 70%;
+
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.score-container {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #223a5f;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  font-family: roboto;
+  font-size: 30px;
+  margin-top: -15px;
+}
+.img {
+  height: 170px;
+}
+.user-options {
+  margin-top: 80px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  background-color: transparent;
+
+  border-width: 0px;
+}
+.win-loss-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  font-size: 20px;
+  font-weight: 700;
+}
+.win-card-img {
+  height: 150px;
+}
+.each-card-bg-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.win-loss-card-container {
+  width: 50%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.each-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+}
+.play-again-btn {
+  background-color: #fff;
+  width: 100px;
+  height: 40px;
+  color: #223a5f;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: bree serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+.rules-btn {
+  border-width: 0px;
+  background-color: #fff;
+  color: #223a5f;
+  font-family: bree serif;
+  font-size: 15px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+.rules-bg-container {
+  height: 80vh;
+  width: 50vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rules-img {
+  height: 70vh;
+}
+.close-icon-btn {
+  align-self: flex-end;
+}
